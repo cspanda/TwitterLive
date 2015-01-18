@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		
+		<link type="text/css" rel="stylesheet" href="css/parallax.css" />
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+		<script src="js/fadein.js"></script>
+		<script src="canvasjs.min.js"></script>
+		<script src="js/frontend1.js"></script>
+		
+
+		<title>Parallax Experiment</title>
+	</head>
+
+	<body>
+		<div class="container section-1">                        
+	        <div id="top" class="header">
+	            <div class="text-vertical-center">
+	                <p style="font-size:60px; margin:0; padding-top: 5%">Twilive</p>
+	                <p style="font-size: 30px">A tool to show live data for a single query.</p>  
+	            </div>
+	            <br>
+	            <div class="queryinput">
+		            <form>
+		                <input type="text" id="text-for-hashtag" name="query" placeholder="Enter Keyword Here">
+					</form>
+				</div>
+				<div class="hashtags" style="padding-top:20px">
+	            	<label id="hashtags">
+	               		<input type="checkbox" value="0" name="hashtags_only" id="check-for-hashtag">
+	                	<span style="font-size: 30px; color:##3F51B5">Hashtags Only</span>
+	                </label>
+	            </div>
+	            <br>
+				<form>
+	                <span style="font-size: 26px; color:##3F51B5">Enter frequency of updates (in milliseconds): </span><input type="text1" id="text-for-time" name="query" placeholder="Enter frequency of updates">
+				</form>
+	            <br>
+	            <div class="btn-center">
+	            	<button id="enter-button" class="btn">Enter</button>       
+	            </div>
+	        </div>
+
+	        <br><br><br>
+
+	        <div class = "header2">
+	        	<div>
+	        		<p><span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>:<span id="tens">00</span></p>
+					<div class="start-buttons">
+			            <input type="button" id="button-reset" onclick="reset()" value="Clear"class="action-button shadow animate green">
+					    <input type="button" id="button-stop" onclick="stop();" value="Stop" class="action-button shadow animate red">
+					</div>
+	        	</div>
+			    <div class="quantitative-data">
+			        <h3>Total Number of Tweets:</h3>
+			        <p id="resultTNT"></p>
+			        <br>
+			        <h3>Average Number of Tweets:</h3>
+			        <p id="resultAVT"></p>
+			        <br>
+			    </div>
+		        <h1>Chart</h1>
+		        <br>
+		        <div id="chartContainer" style="height: 300px; width:100%;"></div>
+		    </div>
+		</div>
+	</body>
+</html>
