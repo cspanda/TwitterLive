@@ -15,10 +15,10 @@ We developed both a mobile and a web application for Twilive, so whenever you ne
 
 Future Goals: 
 <ul>
-Post some tweets containing the keyword <br>
-Post pictures from tweets containing the keyword <br>
-Add geographical map and markers to track location of tweets <br>
-Add information about tweets in the past with the keyword (using the Twitter Rest API) <br></ul>
+<li>Post some tweets containing the keyword </li>
+<li>Post pictures from tweets containing the keyword </li>
+<li>Add geographical map and markers to track location of tweets </li>
+<li>Add information about tweets in the past with the keyword (using the Twitter Rest API) </li></ul>
 
 https://github.com/osamajomaa/TwiLive (backend) <br>
 https://github.com/DigitalPerson/LiveTwitter (mobile) <br>
