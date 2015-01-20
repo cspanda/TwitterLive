@@ -9,10 +9,11 @@ We used Java for backend and Android, HTML/CSS/JavaScript/jQuery for front-end a
 We developed both a mobile and a web application for Twilive, so whenever you need to do research for a project, or just curious about tweets on the road, there is always a way for you to learn about your tweets.
 
 Future Goals: 
--Post some tweets containing the keyword 
--Post pictures from tweets containing the keyword 
--Add geographical map and markers to track location of tweets 
--Add information about tweets in the past with the keyword (using the Twitter Rest API)
+<ul>
+Post some tweets containing the keyword <br>
+Post pictures from tweets containing the keyword <br>
+Add geographical map and markers to track location of tweets <br>
+Add information about tweets in the past with the keyword (using the Twitter Rest API) <br></ul>
 
 https://github.com/osamajomaa/TwiLive (backend) 
 https://github.com/DigitalPerson/LiveTwitter (mobile) 
